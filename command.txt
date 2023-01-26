@@ -1,0 +1,2 @@
+yt-dlp -uV -f bestvideo+bestaudio -a ./download.txt --write-info-json --embed-thumbnail --add-metadata -k  --write-thumbnail --merge-output-format mp4 -o './12-29-5K/%(upload_date>%y%m%d)s_-%(uploader)s_-%(title)s.%(ext)s'
+
